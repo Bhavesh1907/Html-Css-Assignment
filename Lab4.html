@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>/* Style the entire form using ID selector */
+#contact-form {
+    background-color: #f2f2f2; /* background color change */
+    width: 300px;
+    margin: 50px auto; /* center + margin */
+    padding: 20px; /* padding inside form */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Class selector for labels */
+.form-label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Class selector for input fields */
+.form-input {
+    width: 100%;
+    padding: 8px; /* padding for fields */
+    margin-bottom: 10px; /* spacing between fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ID selector for submit button */
+#submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+#submit-btn:hover {
+    background-color: #45a049;
+}</style>
+<body>
+
+<form id="contact-form">
+    <h2>Contact Us</h2>
+
+    <label class="form-label">Name:</label>
+    <input type="text" class="form-input">
+
+    <label class="form-label">Email:</label>
+    <input type="email" class="form-input">
+
+    <label class="form-label">Message:</label>
+    <textarea class="form-input"></textarea>
+
+    <button id="submit-btn">Submit</button>
+</form>
+
+</body>
+</html>

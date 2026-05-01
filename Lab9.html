@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Post Layout</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --heading-font: 'Playfair Display', serif;
+      --body-font: 'Inter', sans-serif;
+      --primary-color: #222;
+      --secondary-color: #555;
+      --max-width: 800px;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: var(--body-font);
+      background-color: #f9f9f9;
+      color: var(--primary-color);
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-family: var(--heading-font);
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-family: var(--heading-font);
+      font-size: 1.4rem;
+      color: var(--secondary-color);
+      margin-bottom: 25px;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 18px;
+      letter-spacing: 0.2px;
+    }
+
+    /* Responsive Typography */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 15px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      h2 {
+        font-size: 1.1rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>The Art of Simple Living</h1>
+    <h2>Finding clarity and peace in a fast-paced world</h2>
+
+    <p>
+      In a world constantly demanding more—more productivity, more consumption, more noise—simple living offers a refreshing alternative. It is not about deprivation, but about intention. Choosing what truly matters allows space for clarity, creativity, and calm.
+    </p>
+
+    <p>
+      By reducing distractions and focusing on meaningful experiences, we begin to appreciate the small details often overlooked. A quiet morning, a thoughtful conversation, or even a moment of stillness can become deeply fulfilling.
+    </p>
+
+    <p>
+      Simple living is a personal journey. It looks different for everyone, but the core remains the same: living with purpose. When we align our actions with our values, life becomes less cluttered and more meaningful.
+    </p>
+  </div>
+
+</body>
+</html>
